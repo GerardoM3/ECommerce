@@ -1,0 +1,19 @@
+1. Login
+2. Registro
+3. Pantalla principal(Listado de tiendas, Listado de áreas
+de negocio)
+4. Pantalla con dos botones: Categorías, Productos 
+(vista del cliente)
+5. Pantalla de categorias (vista del cliente)
+6. Pantalla de productos (vista del cliente)
+7. CRUD para Categorías y Productos (Visual - botones)
+	.Categoría
+8. 		-Crear
+9. 		-Modificar
+10.		-Eliminar
+11.		-Consultar
+	.Productos
+12.		-Crear
+13.		-Modificar
+14.		-Eliminar
+15		-Consultar
