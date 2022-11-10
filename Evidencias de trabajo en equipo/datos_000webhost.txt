@@ -1,0 +1,15 @@
+Cuenta de GMail de E-Commerce.
+correo:   e.commerce.itca@gmail.com
+clave:    Itca123@
+
+Cuenta de 000webhost
+Continuar con correo de GMail: e.commerce.itca@gmail.com
+
+Proyecto
+Nombre del sitio: E-Commerce-ITCA
+clave: Itca123@
+
+Base de datos
+database name: id19844690_e_commerce
+Usuario: id19844690_e_commerce_admin
+Clave: Itca12345678@
