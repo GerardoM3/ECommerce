@@ -1,0 +1,36 @@
+Tablas
+
+Los identificadores de cada tabla van a ser automáticos (auto-incrementables).
+
+Categorias (CRUD - Android Studio y en WebService)
+	-Categoria
+	-Descripcion
+	-Estado de la categoria
+	-Del negocio (id_negocio)
+Productos (CRUD - Android Studio y en WebService)
+	-Producto
+	-Descripcion
+	-Existencias
+	-Precio
+	-Estado de producto
+	-Categoria (id_categoria)
+Usuarios (CRUD - Android Studio y en WebService)
+	- Nombres
+	- Apellidos
+
+	- Usuario
+	- Correo
+	- Clave
+
+	- Tipo de usuario (Emprendedor, Cliente).
+	- Estado de usuario.
+	- Si es emprendedor entonces tiene un identificador del negocio que tiene en la base de datos (id_negocio)
+
+Negocio (CRUD - Android Studio y en WebService)
+
+	-Nombre del negocio
+	-Logo negocio
+	-Slogan
+	-Tipo de negocio
+	-Propietario (id_usuario)
+	
