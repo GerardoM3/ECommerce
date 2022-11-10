@@ -12,6 +12,29 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ECommerce"
         tools:targetApi="31">
+        
+        <activity
+            android:name=".UI.sesion.register2"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".UI.sesion.register"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".UI.sesion.login"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        
         <activity
             android:name=".MainActivity"
             android:exported="true">
