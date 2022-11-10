@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ACTUALIZAR DE CATEGORIAS"
+        android:layout_marginLeft="33dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:fontFamily="serif-monospace"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="40dp" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+    <EditText
+        android:id="@+id/etId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:minHeight="45dp"
+        android:inputType="number"
+        android:paddingLeft="20dp"
+        android:background="@color/cardview_shadow_start_color"
+        android:textStyle="bold"
+        android:hint="ID de la categoria" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <EditText
+        android:id="@+id/etnom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:minHeight="45dp"
+        android:paddingLeft="20dp"
+        android:textStyle="bold"
+        android:background="@color/cardview_shadow_start_color"
+        android:hint="Ingrese nombre de la categoria" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <EditText
+        android:id="@+id/etDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:minHeight="45dp"
+        android:textStyle="bold"
+        android:paddingLeft="20dp"
+        android:background="@color/cardview_shadow_start_color"
+        android:hint="Descripción de la categoria" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <EditText
+        android:id="@+id/etStock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:minHeight="45dp"
+        android:textStyle="bold"
+        android:inputType="number"
+        android:paddingLeft="20dp"
+        android:background="@color/cardview_shadow_start_color"
+        android:hint="Estado de la gategoria" />
+
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/angry_btn"
+            android:text="Actualizar"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="1dp"
+            android:layout_width="170dp"
+            android:layout_height="48dp"
+            android:background="@drawable/buttonshape"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnCncelar"
+
+            android:text="Cancelar"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginRight="15dp"
+            android:layout_width="170dp"
+            android:layout_height="48dp"
+            android:background="@drawable/buttonshape"
+            />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
