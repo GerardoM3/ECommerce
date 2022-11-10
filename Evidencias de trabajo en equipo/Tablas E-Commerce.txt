@@ -15,16 +15,20 @@ Productos (CRUD - Android Studio y en WebService)
 	-Estado de producto
 	-Categoria (id_categoria)
 Usuarios (CRUD - Android Studio y en WebService)
+	-id usuario
 	- Nombres
 	- Apellidos
+	
 
 	- Usuario
 	- Correo
 	- Clave
+	- ID usuario
 
 	- Tipo de usuario (Emprendedor, Cliente).
 	- Estado de usuario.
 	- Si es emprendedor entonces tiene un identificador del negocio que tiene en la base de datos (id_negocio)
+	-ID_usuario
 
 Negocio (CRUD - Android Studio y en WebService)
 
