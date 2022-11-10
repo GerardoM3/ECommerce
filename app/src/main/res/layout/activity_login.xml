@@ -47,7 +47,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
-                android:layout_marginTop="40dp"
+                android:layout_marginTop="35dp"
                 android:layout_marginRight="15dp"
                 android:orientation="vertical">
 
@@ -60,6 +60,7 @@
                     android:fontFamily="@font/times"/>
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tiet_userLogin"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Ingrese su usuario"
@@ -77,6 +78,7 @@
                     android:fontFamily="@font/times"/>
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tiet_contraLogin"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Ingrese su contraseña"
@@ -93,6 +95,7 @@
                 android:orientation="vertical">
 
                 <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnlogin"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Iniciar sesión"

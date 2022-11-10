@@ -37,7 +37,7 @@
 
 
         <TextView
-            android:layout_marginTop="75dp"
+            android:layout_marginTop="65dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Datos de cuenta"
@@ -69,29 +69,47 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Nombres"
+                android:text="Correo electrónico"
                 android:textSize="25dp"
                 android:textStyle="bold"
                 android:fontFamily="@font/times"
                 />
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tiet_correo_register"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Ingrese sus nombres"
+                android:hint="Ingrese su correo"
+                android:textSize="27dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Usuario"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/times"
+                />
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tiet_user_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ingrese su usuario"
                 android:textSize="27dp"
                 />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Apellidos"
+                android:text="Contraseña"
                 android:textSize="25dp"
                 android:textStyle="bold"
                 android:fontFamily="@font/times"
                 />
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tiet_contra_register"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Ingrese sus apellidos"
+                android:hint="Ingrese su contraseña"
                 android:textSize="27dp"
                 />
 
@@ -104,6 +122,7 @@
                 >
 
                 <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnCancelarRegistro"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Cancelar"
@@ -115,6 +134,7 @@
                     />
 
                 <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnSiguienteRegistro"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Siguiente"

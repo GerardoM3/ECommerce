@@ -37,7 +37,7 @@
 
 
         <TextView
-            android:layout_marginTop="75dp"
+            android:layout_marginTop="65dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Datos generales"
@@ -75,6 +75,7 @@
                 android:fontFamily="@font/times"
                 />
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tiet_nombres_register"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Ingrese sus nombres"
@@ -89,6 +90,7 @@
                 android:fontFamily="@font/times"
                 />
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tiet_apellidos_register"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Ingrese sus apellidos"
@@ -104,6 +106,7 @@
                 >
 
                 <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnCancelarRegistro"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Cancelar"
@@ -115,6 +118,7 @@
                     />
 
                 <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnSiguienteRegistro"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Siguiente"
