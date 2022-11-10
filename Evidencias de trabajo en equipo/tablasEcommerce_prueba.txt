@@ -1,0 +1,54 @@
+USE e_commerce;
+
+CREATE TABLE datos_generales_usuario(
+    id_usuario int AUTO_INCREMENT PRIMARY KEY,
+    nombres varchar(45),
+    apellidos varchar(50)
+);
+
+CREATE TABLE negocio(
+    id_negocio int AUTO_INCREMENT PRIMARY KEY,
+    nombre_negocio varchar(45),
+    tipo_negocio varchar(45),
+    id_usuario int,
+    CONSTRAINT FK_negocio_generales_usuario FOREIGN KEY (id_usuario) REFERENCES datos_generales_usuario(id_usuario)
+);
+
+CREATE TABLE categoria(
+    id_categoria int AUTO_INCREMENT PRIMARY KEY,
+    nombre_categoria varchar(30),
+    descripcion_categoria varchar(250),
+    estado_categoria int,
+    id_negocio int,
+    CONSTRAINT FK_categoria_negocio FOREIGN KEY (id_negocio) REFERENCES negocio(id_negocio)
+);
+
+CREATE TABLE producto(
+    id_producto int AUTO_INCREMENT PRIMARY KEY,
+    nombre_producto varchar(30),
+    descripcion_producto varchar(250),
+    existencias int,
+    precio decimal(8, 2),
+    estado_producto int,
+    id_categoria int,
+    CONSTRAINT FK_producto_categoria FOREIGN KEY (id_categoria) REFERENCES categoria(id_categoria)
+);
+
+
+
+CREATE TABLE datos_cuenta_usuario(
+    usuario varchar(20),
+    correo varchar(45),
+    clave varchar(25),
+    id_usuario int,
+    CONSTRAINT FK_cuenta_usuario_usuario FOREIGN KEY (id_usuario) REFERENCES datos_generales_usuario(id_usuario)
+);
+
+CREATE TABLE datos_tipo_usuario(
+    tipo varchar(20),
+    estado int,
+    id_negocio int NULL,
+    id_usuario int,
+    CONSTRAINT FK_tipo_usuario_negocio FOREIGN KEY (id_negocio) REFERENCES negocio(id_negocio),
+    CONSTRAINT FK_tipo_usuario_usuario FOREIGN KEY (id_usuario) REFERENCES datos_generales_usuario(id_usuario)
+);
