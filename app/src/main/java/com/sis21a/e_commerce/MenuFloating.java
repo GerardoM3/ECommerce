@@ -1,4 +1,4 @@
-package com.sis21a.ecommerce;
+package com.sis21a.e_commerce;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,8 @@ import android.os.Bundle;
 
 import com.getbase.floatingactionbutton.FloatingActionButton;
 import com.getbase.floatingactionbutton.FloatingActionsMenu;
+
+import com.sis21a.e_commerce.R;
 
 public class MenuFloating extends AppCompatActivity {
 
