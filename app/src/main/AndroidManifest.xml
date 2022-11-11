@@ -12,12 +12,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ECommerce"
         tools:targetApi="31">
-        
+        <activity
+            android:name=".Vistas_tienda"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
         <activity
             android:name=".UI.sesion.register2"
             android:exported="true"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
-            >
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -33,23 +38,20 @@
         <activity
             android:name=".UI.sesion.login"
             android:exported="true"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
-            >
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-        
         <activity
             android:name=".MainActivity"
             android:exported="true">
-            
-
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
