@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">E-Commerce</string>
+    
+    <string-array name="sp_tipo_cuenta">
+        <item> Seleccione una opción </item>
+        <item> Dueño de negocio </item>
+        <item> Consumidor </item>
+    </string-array>
 </resources>
