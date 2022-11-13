@@ -61,6 +61,7 @@
                     android:layout_centerHorizontal="true"
                     android:fontFamily="sans-serif-condensed-medium"/>
             <Button
+                android:id="@+id/btnComprar"
                 android:layout_width="110dp"
                 android:layout_height="40dp"
                 android:layout_below="@id/tvdespro"

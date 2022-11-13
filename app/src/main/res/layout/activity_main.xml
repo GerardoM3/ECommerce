@@ -19,7 +19,7 @@
         app:fab_addButtonColorPressed="@android:color/holo_orange_dark">
 
         <com.getbase.floatingactionbutton.FloatingActionButton
-            android:id="@+id/btncrear"
+            android:id="@+id/btncrearFAB"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:fab_colorNormal="@color/design_default_color_on_primary"
@@ -27,21 +27,21 @@
             app:fab_size="mini"/>
 
         <com.getbase.floatingactionbutton.FloatingActionButton
-            android:id="@+id/btnmodificar"
+            android:id="@+id/btnmodificarFAB"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:fab_colorNormal="@color/design_default_color_on_primary"
             app:fab_icon="@drawable/ic_crear"
             app:fab_size="mini"/>
         <com.getbase.floatingactionbutton.FloatingActionButton
-            android:id="@+id/btneliminar"
+            android:id="@+id/btneliminarFAB"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:fab_colorNormal="@color/design_default_color_on_primary"
             app:fab_icon="@drawable/delete"
             app:fab_size="mini"/>
         <com.getbase.floatingactionbutton.FloatingActionButton
-            android:id="@+id/btnconsultar"
+            android:id="@+id/btnconsultarFAB"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:fab_colorNormal="@color/design_default_color_on_primary"

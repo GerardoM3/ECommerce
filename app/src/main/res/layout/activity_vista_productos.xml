@@ -17,7 +17,7 @@
         android:textColor="#fff"/>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rbitempro"
+        android:id="@+id/rv_productos"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 

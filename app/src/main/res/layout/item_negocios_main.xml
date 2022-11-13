@@ -86,7 +86,7 @@
                 android:fontFamily="serif-monospace" />
 
             <Button
-                android:id="@+id/btnVer1"
+                android:id="@+id/btnVerTienda"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/tvdes_content"

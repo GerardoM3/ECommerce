@@ -31,12 +31,12 @@
         android:layout_marginTop="100dp"
         android:textStyle="bold"
         />
-    <androidx.appcompat.widget.AppCompatImageView
+    <Space
         android:layout_width="match_parent"
         android:layout_height="70dp"/>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn1"
+        android:id="@+id/btnMainCategoria"
         android:textColor="#FFFFFF"
         android:textSize="30sp"
         android:text="CATEGORIA"
@@ -52,11 +52,11 @@
         />
 
 
-    <androidx.appcompat.widget.AppCompatImageView
+    <Space
         android:layout_width="match_parent"
         android:layout_height="30dp"/>
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn2"
+        android:id="@+id/btnMainProducto"
 
         android:text="PRODUCTOS"
         android:textColor="#FFFFFF"

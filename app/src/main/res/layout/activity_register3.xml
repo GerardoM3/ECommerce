@@ -75,6 +75,7 @@
                 android:fontFamily="@font/times"
                 />
             <androidx.appcompat.widget.AppCompatSpinner
+                android:id="@+id/spTipoCuenta"
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
                 android:entries="@array/sp_tipo_cuenta"
@@ -89,11 +90,13 @@
                 android:fontFamily="@font/times"
                 />
             <CheckBox
+                android:id="@+id/cbTipoCuentaActivo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Activo"
                 />
             <CheckBox
+                android:id="@+id/cbTipoCuentaInactivo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Inactivo"
@@ -122,7 +125,7 @@
                     />
 
                 <androidx.appcompat.widget.AppCompatButton
-                    android:id="@+id/btnSiguienteRegistro"
+                    android:id="@+id/btnFinalizarRegistro"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Finalizar"

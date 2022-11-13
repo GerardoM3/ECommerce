@@ -20,27 +20,13 @@
         android:fontFamily="serif-monospace"
         tools:layout_editor_absoluteX="147dp"
         tools:layout_editor_absoluteY="40dp" />
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="30dp"/>
-    <EditText
-        android:id="@+id/etId"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
-        android:minHeight="45dp"
-        android:inputType="number"
-        android:paddingLeft="20dp"
-        android:background="@color/cardview_shadow_start_color"
-        android:textStyle="bold"
-        android:hint="ID de la categoria" />
+
     <Space
         android:layout_width="match_parent"
         android:layout_height="30dp"/>
 
     <EditText
-        android:id="@+id/etnom"
+        android:id="@+id/etNombreCategoria"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="15dp"
@@ -56,7 +42,7 @@
         android:layout_height="30dp"/>
 
     <EditText
-        android:id="@+id/etDesc"
+        android:id="@+id/etDescripciónCategoria"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="15dp"
@@ -71,18 +57,15 @@
         android:layout_width="match_parent"
         android:layout_height="30dp"/>
 
-    <EditText
-        android:id="@+id/etStock"
-        android:layout_width="match_parent"
+    <CheckBox
+        android:id="@+id/cbEstadoCategoria"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
-        android:minHeight="45dp"
+        android:text="Habilitar categoría"
         android:textStyle="bold"
-        android:inputType="number"
-        android:paddingLeft="20dp"
-        android:background="@color/cardview_shadow_start_color"
-        android:hint="Estado de la gategoria" />
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="15dp"
+        />
 
 
 
@@ -96,7 +79,7 @@
         android:orientation="horizontal">
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/angry_btn"
+            android:id="@+id/btnGuardarC"
             android:text="Actualizar"
             android:textColor="#FFFFFF"
             android:textSize="17sp"
@@ -108,7 +91,7 @@
             />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btnCncelar"
+            android:id="@+id/btnCancelarC"
 
             android:text="Cancelar"
             android:textColor="#FFFFFF"

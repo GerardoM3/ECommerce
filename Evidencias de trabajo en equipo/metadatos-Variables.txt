@@ -1,0 +1,86 @@
+Android estudio
+Layout
+	activity_crear (productos)
+		-etNombreProducto
+		-etDescripcionProducto
+		-etStockProducto
+		-etPrecioProducto
+		-spCategoriaProducto
+		-cbEstadoProducto
+		-btnGuardarP
+		-btnCancelarP
+	activity_crear_categoria
+		-etNombreCategoria
+		-etDescripciónCategoria
+		-cbEstadoCategoria
+		-btnGuardarC
+		-btnCancelarC
+	activity_login
+		-tiet_userLogin
+		-tiet_contraLogin
+		-btnlogin
+		-tv_register
+	activity_main
+		-btnM
+		-btncrearFAB
+		-btnmodificarFAB
+		-btneliminarFAB
+		-btnconsultarFAB
+	activity_modificar (productos)
+		-etNombreProducto
+		-etDescripcionProducto
+		-etStockProducto
+		-etPrecioProducto
+		-spCategoriaProducto
+		-cbEstadoProducto
+		-btnGuardarP
+		-btnCancelarP
+	activity_modificar_categ
+		-etNombreCategoria
+		-etDescripciónCategoria
+		-cbEstadoCategoria
+		-btnGuardarC
+		-btnCancelarC
+	activity_register
+		-tiet_nombres_register
+		-tiet_apellidos_register
+		-btnCancelarRegistro
+		-btnSiguienteRegistro
+	activity_register2
+		-tiet_correo_register
+		-tiet_user_register
+		-tiet_contra_register
+		-btnCancelarRegistro
+		-btnSiguienteRegistro
+	activity_register3
+		-spTipoCuenta
+		-cbTipoCuentaActivo
+		-cbTipoCuentaInactivo
+		-btnCancelarRegistro
+		-btnFinalizarRegistro
+	activity_vista_productos
+		-rv_productos
+	activity_vistas_tienda
+		-rvTiendas
+	activity_vistascat
+		-btnMainCategoria
+		-btnMainProducto
+	item_negocios_main
+		-imageView
+		-tvnombre_content
+		-tvdes_content
+		-btnVerTienda
+	item_productos
+		-imageView
+		-tvnombreprod
+		-tvprecio
+		-tvdespro
+		-btnComprar
+
+Posibles layouts a eliminar
+	* activity_eliminar
+	* activity_eliminar_categ
+	* ventana_consultar (menos probable)
+
+Java
+	
