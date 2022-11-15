@@ -5,6 +5,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 
+import com.sis21a.e_commerce.R;
+
 public class vista_productos extends AppCompatActivity {
 
     RecyclerView rv_productos;

@@ -1,4 +1,4 @@
-USE e_commerce;
+USE id19844690_e_commerce;
 
 CREATE TABLE datos_generales_usuario(
     id_usuario int AUTO_INCREMENT PRIMARY KEY,
