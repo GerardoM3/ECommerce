@@ -21,7 +21,7 @@ public class modificar_categ extends AppCompatActivity {
         setContentView(R.layout.activity_modificar_categ);
 
         etNombreCategoria=findViewById(R.id.etNombreCategoria);
-        etDescripcionCategoria=findViewById(R.id.etDescripcionCategoria);
+        etDescripcionCategoria=findViewById(R.id.etDesCategoria);
         cbEstadoCategoria=findViewById(R.id.cbEstadoCategoria);
         btnGuardar=findViewById(R.id.btnGuardarC);
         btnCancelarC=findViewById(R.id.btnCancelarC);
