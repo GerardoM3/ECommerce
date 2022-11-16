@@ -1,4 +1,4 @@
-package com.sis21a.e_commerce;
+package com.sis21a.e_commerce.UI.sesion;
 
 public class Dto_datos_cuenta {
 
