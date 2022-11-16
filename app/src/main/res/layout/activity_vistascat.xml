@@ -7,6 +7,7 @@
     android:orientation="vertical"
     android:layout_margin="0dp"
     android:gravity=""
+    tools:context=".Tienda.Vista_productos_tienda"
     tools:ignore="MissingClass">
 
     <TextView
@@ -37,7 +38,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnMainCategoria"
-        android:textColor="#FFFFFF"
+        android:textColor="#000000"
         android:textSize="30sp"
         android:text="CATEGORIA"
         android:layout_gravity="center"
@@ -59,7 +60,7 @@
         android:id="@+id/btnMainProducto"
 
         android:text="PRODUCTOS"
-        android:textColor="#FFFFFF"
+        android:textColor="#000000"
         android:textSize="30sp"
         android:layout_gravity="center"
 

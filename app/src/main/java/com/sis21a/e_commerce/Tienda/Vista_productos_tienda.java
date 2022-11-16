@@ -1,14 +1,13 @@
-package com.example.ecomercecopy;
+package com.sis21a.e_commerce.Tienda;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.widget.Button;
-import android.widget.EditText;
 
 import com.sis21a.e_commerce.R;
 
-public class MainActivity extends AppCompatActivity {
+public class Vista_productos_tienda extends AppCompatActivity{
     Button btnMainCategoria, btnMainProducto;
 
     @Override
