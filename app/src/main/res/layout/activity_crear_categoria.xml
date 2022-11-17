@@ -68,6 +68,17 @@
         android:checked="true"
         />
 
+    <Spinner
+        android:id="@+id/sp_negocio"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/cardview_shadow_start_color"
+        android:entries="@array/sp_negocio"
+        android:spinnerMode="dialog"
+        />
+
     <Space
         android:layout_width="match_parent"
         android:layout_height="30dp"/>

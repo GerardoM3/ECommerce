@@ -3,13 +3,13 @@ package com.sis21a.e_commerce.Dto;
 public class dto_negocio {
     int id_negocio;
     String nombre_negocio;
-    int tipo_negocio;
+    String tipo_negocio;
     int id_usuario;
 
     public dto_negocio() {
     }
 
-    public dto_negocio(int id_negocio, String nombre_negocio, int tipo_negocio, int id_usuario) {
+    public dto_negocio(int id_negocio, String nombre_negocio, String tipo_negocio, int id_usuario) {
         this.id_negocio = id_negocio;
         this.nombre_negocio = nombre_negocio;
         this.tipo_negocio = tipo_negocio;
@@ -32,11 +32,11 @@ public class dto_negocio {
         this.nombre_negocio = nombre_negocio;
     }
 
-    public int getTipo_negocio() {
+    public String getTipo_negocio() {
         return tipo_negocio;
     }
 
-    public void setTipo_negocio(int tipo_negocio) {
+    public void setTipo_negocio(String tipo_negocio) {
         this.tipo_negocio = tipo_negocio;
     }
 
