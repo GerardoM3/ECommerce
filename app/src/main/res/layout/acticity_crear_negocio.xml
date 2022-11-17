@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Categoria.crear_categoria"
+    tools:context=".crear_negocio"
     android:orientation="vertical">
     <Space
         android:layout_width="match_parent"
@@ -65,7 +65,7 @@
         android:orientation="horizontal">
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btnGuardarC"
+            android:id="@+id/btnGuardarN"
             android:text="Guadar"
             android:textColor="#FFFFFF"
             android:textSize="17sp"
@@ -77,7 +77,7 @@
             />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btnCancelarC"
+            android:id="@+id/btnCancelarN"
 
             android:text="Cancelar"
             android:textColor="#FFFFFF"
