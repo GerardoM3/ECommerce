@@ -1,4 +1,4 @@
-package com.sis21a.e_commerce.UI.sesion;
+package com.sis21a.e_commerce.Dto;
 
 public class Dto_tipo_cuenta {
 
@@ -6,6 +6,16 @@ public class Dto_tipo_cuenta {
     int estado;
     int id_negocio;
     int id_usuario;
+
+    public Dto_tipo_cuenta() {
+    }
+
+    public Dto_tipo_cuenta(String tipo, int estado, int id_negocio, int id_usuario) {
+        this.tipo = tipo;
+        this.estado = estado;
+        this.id_negocio = id_negocio;
+        this.id_usuario = id_usuario;
+    }
 
     public String getTipo() {
         return tipo;
@@ -38,13 +48,4 @@ public class Dto_tipo_cuenta {
     public void setId_usuario(int id_usuario) {
         this.id_usuario = id_usuario;
     }
-
-    public Dto_tipo_cuenta(String tipo, int estado, int id_negocio, int id_usuario) {
-        this.tipo = tipo;
-        this.estado = estado;
-        this.id_negocio = id_negocio;
-        this.id_usuario = id_usuario;
-    }
-
-
 }

@@ -1,4 +1,4 @@
-package com.sis21a.e_commerce.UI.sesion;
+package com.sis21a.e_commerce.Dto;
 
 public class Dto_datos_cuenta {
 
@@ -7,13 +7,15 @@ public class Dto_datos_cuenta {
     String clave;
     int id_usuario;
 
+    public Dto_datos_cuenta() {
+    }
+
     public Dto_datos_cuenta(String usuario, String correo, String clave, int id_usuario) {
         this.usuario = usuario;
         this.correo = correo;
         this.clave = clave;
         this.id_usuario = id_usuario;
     }
-
 
     public String getUsuario() {
         return usuario;
@@ -46,6 +48,4 @@ public class Dto_datos_cuenta {
     public void setId_usuario(int id_usuario) {
         this.id_usuario = id_usuario;
     }
-
-
 }

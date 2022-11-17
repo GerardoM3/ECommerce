@@ -6,4 +6,8 @@
         <item> Dueño de negocio </item>
         <item> Consumidor </item>
     </string-array>
+
+    <string-array name="sp_categoria">
+        <item> Seleccione la categoria </item>
+    </string-array>
 </resources>

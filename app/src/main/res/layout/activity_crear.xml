@@ -111,6 +111,8 @@
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
         android:background="@color/cardview_shadow_start_color"
+        android:entries="@array/sp_categoria"
+        android:spinnerMode="dialog"
    />
     </androidx.appcompat.widget.LinearLayoutCompat>
 

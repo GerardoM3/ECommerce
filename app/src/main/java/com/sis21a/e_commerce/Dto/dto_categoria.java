@@ -1,22 +1,32 @@
-package com.sis21a.e_commerce.Categoria;
+package com.sis21a.e_commerce.Dto;
 
 import androidx.annotation.NonNull;
 
 public class dto_categoria {
-    public dto_categoria(int id_categori, String nombre_categoria, String descripcion_categoria, int estado_categoria, int id_negocio) {
-        this.id_categori = id_categori;
+
+    int id_categoria;
+    String nombre_categoria;
+    String descripcion_categoria;
+    int estado_categoria;
+    int id_negocio;
+
+    public dto_categoria() {
+    }
+
+    public dto_categoria(int id_categoria, String nombre_categoria, String descripcion_categoria, int estado_categoria, int id_negocio) {
+        this.id_categoria = id_categoria;
         this.nombre_categoria = nombre_categoria;
         this.descripcion_categoria = descripcion_categoria;
         this.estado_categoria = estado_categoria;
         this.id_negocio = id_negocio;
     }
 
-    public int getId_categori() {
-        return id_categori;
+    public int getId_categoria() {
+        return id_categoria;
     }
 
-    public void setId_categori(int id_categori) {
-        this.id_categori = id_categori;
+    public void setId_categoria(int id_categoria) {
+        this.id_categoria = id_categoria;
     }
 
     public String getNombre_categoria() {
@@ -50,12 +60,4 @@ public class dto_categoria {
     public void setId_negocio(int id_negocio) {
         this.id_negocio = id_negocio;
     }
-
-    int id_categori;
-    String nombre_categoria;
-    String descripcion_categoria;
-    int estado_categoria;
-    int id_negocio;
-
-
 }

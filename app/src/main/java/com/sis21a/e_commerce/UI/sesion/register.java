@@ -23,5 +23,7 @@ public class register extends AppCompatActivity {
         btnCancelarRegistro = findViewById(R.id.btnCancelarRegistro);
         btnSiguienteRegistro = findViewById(R.id.btnSiguienteRegistro);
 
+
+
     }
 }

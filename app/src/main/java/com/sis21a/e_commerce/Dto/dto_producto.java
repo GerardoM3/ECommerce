@@ -1,21 +1,34 @@
-package com.sis21a.e_commerce.Producto;
+package com.sis21a.e_commerce.Dto;
 
 public class dto_producto {
-    public dto_producto(int id_product, String nombre_producto, String descripcion_producto, int existencias, int estado_producto, int id_categoria) {
-        this.id_product = id_product;
+
+    int  id_producto;
+    String nombre_producto;
+    String descripcion_producto;
+    int existencias;
+    double precio;
+    int estado_producto;
+    int id_categoria;
+
+    public dto_producto() {
+    }
+
+    public dto_producto(int id_producto, String nombre_producto, String descripcion_producto, int existencias, double precio, int estado_producto, int id_categoria) {
+        this.id_producto = id_producto;
         this.nombre_producto = nombre_producto;
         this.descripcion_producto = descripcion_producto;
         this.existencias = existencias;
+        this.precio = precio;
         this.estado_producto = estado_producto;
         this.id_categoria = id_categoria;
     }
 
-    public int getId_product() {
-        return id_product;
+    public int getId_producto() {
+        return id_producto;
     }
 
-    public void setId_product(int id_product) {
-        this.id_product = id_product;
+    public void setId_producto(int id_producto) {
+        this.id_producto = id_producto;
     }
 
     public String getNombre_producto() {
@@ -42,6 +55,14 @@ public class dto_producto {
         this.existencias = existencias;
     }
 
+    public double getPrecio() {
+        return precio;
+    }
+
+    public void setPrecio(double precio) {
+        this.precio = precio;
+    }
+
     public int getEstado_producto() {
         return estado_producto;
     }
@@ -57,11 +78,4 @@ public class dto_producto {
     public void setId_categoria(int id_categoria) {
         this.id_categoria = id_categoria;
     }
-
-    int  id_product;
-    String nombre_producto;
-    String descripcion_producto;
-    int existencias;
-    int estado_producto;
-    int id_categoria;
 }
