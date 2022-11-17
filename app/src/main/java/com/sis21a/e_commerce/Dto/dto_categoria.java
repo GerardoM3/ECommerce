@@ -2,7 +2,9 @@ package com.sis21a.e_commerce.Dto;
 
 import androidx.annotation.NonNull;
 
-public class dto_categoria {
+import java.io.Serializable;
+
+public class dto_categoria implements Serializable {
 
     int id_categoria;
     String nombre_categoria;

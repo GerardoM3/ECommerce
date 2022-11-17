@@ -10,4 +10,8 @@
     <string-array name="sp_categoria">
         <item> Seleccione la categoria </item>
     </string-array>
+
+    <string-array name="sp_negocio">
+        <item> Seleccione el negocio </item>
+    </string-array>
 </resources>

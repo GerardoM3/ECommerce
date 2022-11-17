@@ -20,7 +20,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Cybershop"
-            android:textSize="133dp"
+            android:textSize="123dp"
             android:layout_gravity="center"
             android:fontFamily="@font/januari_blossom"
             />
@@ -125,10 +125,11 @@
                     android:id="@+id/btnCancelarRegistro"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:onClick="cancelarRegister2"
                     android:text="Cancelar"
                     android:textAllCaps="false"
                     android:textStyle="bold"
-                    android:textSize="25dp"
+                    android:textSize="19dp"
                     android:layout_margin="25dp"
                     android:fontFamily="@font/glimmer_of_light"
                     />
@@ -140,7 +141,7 @@
                     android:text="Siguiente"
                     android:textAllCaps="false"
                     android:textStyle="bold"
-                    android:textSize="25dp"
+                    android:textSize="19dp"
                     android:layout_margin="25dp"
                     android:fontFamily="@font/glimmer_of_light"
                     />

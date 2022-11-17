@@ -6,7 +6,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.SystemClock;
 import android.text.Html;
 import android.view.View;
 import android.widget.Button;
@@ -19,9 +18,10 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.google.android.material.textfield.TextInputEditText;
-import com.sis21a.e_commerce.MainActivity;
+import com.sis21a.e_commerce.MenuFloating;
 import com.sis21a.e_commerce.MySingleton;
 import com.sis21a.e_commerce.R;
+import com.sis21a.e_commerce.Tienda.Vista_productos_tienda;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -60,6 +60,7 @@ public class login extends AppCompatActivity {
             tiet_contraLogin.setError("Campo obligatorio");
         }else{
             LogOn(login.this, loginUser, loginPass);
+
         }
     }
 
@@ -75,8 +76,9 @@ public class login extends AppCompatActivity {
 
                     if (estado.equals("1")) {
                         Toast.makeText(context, mensaje, Toast.LENGTH_SHORT).show();
-                        Intent i = new Intent(login.this, MainActivity.class);
+                        Intent i = new Intent(login.this, Vista_productos_tienda.class);
                         startActivity(i);
+                        finishActivity(1);
                     } else if (estado.equals("2")) {
                         Toast.makeText(context, "" + mensaje, Toast.LENGTH_SHORT).show();
                     }
@@ -107,6 +109,6 @@ public class login extends AppCompatActivity {
     public void clickRegister(View v){
         Intent i = new Intent(login.this, register.class);
         startActivity(i);
-        finish();
+        finishActivity(1);
     }
 }

@@ -20,7 +20,7 @@
             android:layout_gravity="center"
             android:padding="10dp"
             android:text="Cybershop"
-            android:textSize="126dp"
+            android:textSize="123dp"
             android:fontFamily="@font/januari_blossom"
             />
 

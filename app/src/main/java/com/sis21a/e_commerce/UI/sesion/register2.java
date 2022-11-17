@@ -5,7 +5,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.google.android.material.textfield.TextInputEditText;
 import com.sis21a.e_commerce.R;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 
 public class register2 extends AppCompatActivity {
@@ -24,5 +26,11 @@ public class register2 extends AppCompatActivity {
         btnCancelarRegistro = findViewById(R.id.btnCancelarRegistro);
         btnSiguienteRegistro = findViewById(R.id.btnSiguienteRegistro);
 
+    }
+
+    public void cancelarRegister2(View v){
+        Intent i = new Intent(register2.this, login.class);
+        startActivity(i);
+        finishActivity(1);
     }
 }

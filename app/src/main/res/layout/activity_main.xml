@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/imd1"
-    tools:context=".MainActivity">
+    tools:context=".MenuFloating">
 
     <com.getbase.floatingactionbutton.FloatingActionsMenu
         android:id="@+id/btnM"

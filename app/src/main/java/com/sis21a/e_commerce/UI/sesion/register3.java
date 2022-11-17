@@ -3,7 +3,9 @@ package com.sis21a.e_commerce.UI.sesion;
 import androidx.appcompat.app.AppCompatActivity;
 import com.sis21a.e_commerce.R;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.Spinner;
@@ -25,5 +27,11 @@ public class register3 extends AppCompatActivity {
         btnCancelarRegistro = findViewById(R.id.btnCancelarRegistro);
         btnFinalizarRegistro = findViewById(R.id.btnFinalizarRegistro);
 
+    }
+
+    public void cancelarRegister3(View v){
+        Intent i = new Intent(register3.this, login.class);
+        startActivity(i);
+        finishActivity(1);
     }
 }
