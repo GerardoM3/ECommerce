@@ -119,4 +119,17 @@ public class vista_categoria extends AppCompatActivity {
 
         MySingleton.getInstance(context).addToRequestQueue(stringRequest);
     }
+
+
+
+    public void btnCrearC(View v){
+        Intent i = new Intent(vista_categoria.this, crear_categoria.class);
+        startActivity(i);
+        finishActivity(1);
+    }
+    public void btnmodificarC(View v){
+        Intent i = new Intent(vista_categoria.this, modificar_categ.class);
+        startActivity(i);
+        finishActivity(1);
+    }
 }
