@@ -19,8 +19,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:padding="10dp"
-            android:text="Simón dice..."
-            android:textSize="116dp"
+            android:text="Cybershop"
+            android:textSize="126dp"
             android:fontFamily="@font/januari_blossom"
             />
 
@@ -98,11 +98,11 @@
                     android:id="@+id/btnlogin"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Iniciar sesión"
-                    android:textSize="25dp"
                     android:fontFamily="@font/glimmer_of_light"
+                    android:onClick="LogIn"
+                    android:text="Iniciar sesión"
                     android:textAllCaps="false"
-                    />
+                    android:textSize="25dp" />
 
                 <TextView
                     android:id="@+id/tv_register"
