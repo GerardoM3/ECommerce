@@ -160,8 +160,7 @@ public class crear_categoria extends AppCompatActivity {
                     }else if (cbEstadoCategoria.isChecked()==false){
                         checkState = 0;
                     }
-                    Toast.makeText(this, "Bien...", Toast.LENGTH_SHORT).show();
-                    save_server(this, nombre, descripcion, checkState);
+                    save_server(this, nombre, descripcion, checkState, Integer.parseInt(id_negocio));
 
                 }
                 break;
@@ -174,7 +173,7 @@ public class crear_categoria extends AppCompatActivity {
         }
     }
 
-    private void save_server(final Context context, final String nombre_categoria, final String descripcion_categoria, final int estado_categoria){
+    private void save_server(final Context context, final String nombre_categoria, final String descripcion_categoria, final int estado_categoria, final int id_negocio){
         String url = "https://gerardomonroysis11a.000webhostapp.com/WS/service2020/guardar.php";
         StringRequest request = new StringRequest(Request.Method.POST, url,  new Response.Listener<String>(){
             @Override
@@ -187,9 +186,7 @@ public class crear_categoria extends AppCompatActivity {
 
                     if(estado.equals("1")){
                         Toast.makeText(context, mensaje, Toast.LENGTH_SHORT).show();
-                        etNombreCategoria.setText(null);
-                        etDescripcionCategoria.setText(null);
-                        cbEstadoCategoria.setChecked(false);
+
                     }else if(estado.equals("2")){
                         Toast.makeText(context, "" + mensaje, Toast.LENGTH_SHORT).show();
                     }
@@ -210,6 +207,7 @@ public class crear_categoria extends AppCompatActivity {
                 map.put("nombre_categoria", nombre_categoria);
                 map.put("descripcion_categoria", descripcion_categoria);
                 map.put("estado_categoria", String.valueOf(estado_categoria));
+                map.put("id_negocio", String.valueOf(id_negocio));
                 return map;
             }
         };
