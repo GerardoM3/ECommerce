@@ -48,8 +48,8 @@ public class crear_producto extends AppCompatActivity {
 
 
 
-    String id_producto = "";
-    String nombre_producto = "";
+    String id_categoria = "";
+    String nombre_categoria = "";
     @Override
     protected void onCreate (Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
@@ -65,7 +65,7 @@ public class crear_producto extends AppCompatActivity {
         btnCancelarP = findViewById(R.id.btnCancelarP);
 
         fk_productos(crear_producto .this);
-        
+
         spCategoriaProducto.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
@@ -74,15 +74,15 @@ public class crear_producto extends AppCompatActivity {
                     String item_spinner = spCategoriaProducto.getSelectedItem().toString();
                     String s[] = item_spinner.split("~");
 
-                    id_producto= s[0].trim();
-                    nombre_producto = s[1];
+                    id_categoria= s[0].trim();
+                    nombre_categoria = s[1];
 
-                    Toast toast = Toast.makeText(crear_producto.this, "Id producto: " + id_producto + "\n" + "Nombre Categoria: " + nombre_producto, Toast.LENGTH_SHORT);
+                    Toast toast = Toast.makeText(crear_producto.this, "Id producto: " + id_categoria + "\n" + "Nombre Categoria: " + nombre_categoria, Toast.LENGTH_SHORT);
                     toast.setGravity(Gravity.CENTER, 0, 0);
                     toast.show();
                 }else{
-                    id_producto = "";
-                    nombre_producto = "";
+                    id_categoria = "";
+                    nombre_categoria = "";
                 }
 
                 conta++;
