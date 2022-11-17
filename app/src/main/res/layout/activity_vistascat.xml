@@ -38,19 +38,19 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnMainCategoria"
-        android:textColor="#000000"
-        android:textSize="30sp"
-        android:text="CATEGORIA"
-        android:layout_gravity="center"
-
         android:layout_width="270dp"
         android:layout_height="60dp"
+        android:layout_gravity="center"
         android:background="@drawable/btnshape"
+
+        android:onClick="btnCategoria"
         android:shadowColor="#A8A8A8"
         android:shadowDx="2"
         android:shadowDy="-3"
         android:shadowRadius="0"
-        />
+        android:text="CATEGORIA"
+        android:textColor="#000000"
+        android:textSize="30sp" />
 
 
     <Space

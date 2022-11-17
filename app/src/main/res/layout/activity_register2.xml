@@ -138,13 +138,13 @@
                     android:id="@+id/btnSiguienteRegistro"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Siguiente"
-                    android:textAllCaps="false"
-                    android:textStyle="bold"
-                    android:textSize="19dp"
                     android:layout_margin="25dp"
                     android:fontFamily="@font/glimmer_of_light"
-                    />
+                    android:onClick="paso2"
+                    android:text="Siguiente"
+                    android:textAllCaps="false"
+                    android:textSize="19dp"
+                    android:textStyle="bold" />
 
 
 
